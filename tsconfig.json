@@ -1,0 +1,42 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es2015",
+        "lib": [
+            "dom",
+            "es2015",
+            "es6"
+        ],
+        "skipLibCheck": true,
+        "experimentalDecorators": true,
+        "importHelpers": true,
+        "strict": true,
+        "types": [
+            "node"
+        ],
+        "typeRoots": [
+            "types"
+        ],
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "baseUrl": ".",
+        "paths": {
+            "~/*": [
+                "app/*"
+            ],
+            "*": [
+                "./node_modules/tns-core-modules/*",
+                "./node_modules/*"
+            ]
+        }
+    },
+    "include": [
+        "app",
+        "types"
+    ],
+    "exclude": [
+        "node_modules",
+        "hooks",
+        "platforms"
+    ]
+}

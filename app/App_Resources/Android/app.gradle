@@ -1,0 +1,11 @@
+// Add your native dependencies here:
+
+android {
+  defaultConfig {  
+    generatedDensities = []
+    applicationId = "org.starter"
+  }
+  aaptOptions {  
+    additionalParameters "--no-version-vectors"  
+  }  
+} 

@@ -1,0 +1,1 @@
+declare var TNS_ENV: 'production' | 'development'

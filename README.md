@@ -9,7 +9,7 @@
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/) [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release) [![Build Status](https://travis-ci.org/gimyboya/NativeScript-Vue-Typescript-Starter-Kit.svg?branch=master)](https://travis-ci.org/gimyboya/NativeScript-Vue-Typescript-Starter-Kit)
 
 <div align="center">
-    <img alt="Logo" src="https://i.imgur.com/GerflS3.png" />
+    <img alt="sample" src="https://i.imgur.com/GerflS3.png" height="400"/>
 </div>
 
 # What do you get
@@ -46,7 +46,8 @@ npm install
 ### Scripts
 
 The following scripts are available for you to run and build your application
-**Note:** <platform> can be either `android` or `ios`
+
+**Note:** `<platform>` can be either `android` or `ios`
 
 ``` bash
 
